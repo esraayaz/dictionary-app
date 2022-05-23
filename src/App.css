@@ -1,10 +1,17 @@
 .App-header {
     box-sizing: border-box;
     margin: 0 auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .App-logo {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+}
+
+.App footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 20px auto;
 }
