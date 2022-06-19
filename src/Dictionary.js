@@ -29,9 +29,9 @@ export default function Dictionary() {
           type="search"
           className="form control"
           onChange={handleKeywordChange}
-        />
-      </form>
-      <Results results={results} />
+        />{" "}
+      </form>{" "}
+      <Results results={results} />{" "}
     </div>
   );
 }
