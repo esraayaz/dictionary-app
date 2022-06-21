@@ -8,22 +8,22 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-        </header>{" "}
+        </header>
         <main>
           <Dictionary />
-        </main>{" "}
-      </div>{" "}
+        </main>
+      </div>
       <footer>
-        This project was coded by{" "}
+        This project was coded by
         <a
           href="https://www.linkedin.com/in/esraayaz/"
           target="_blank"
           className="esra"
           rel="noreferrer"
         >
-          Esra Ayaz{" "}
-        </a>{" "}
-        and is{" "}
+          Esra Ayaz
+        </a>
+        and is
         <a
           href="https://github.com/esraayaz/dictionary-app"
           target="_blank"
@@ -31,9 +31,9 @@ export default function App() {
         "
           rel="noreferrer"
         >
-          open - sourced on GitHub{" "}
-        </a>{" "}
-      </footer>{" "}
+          open - sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }

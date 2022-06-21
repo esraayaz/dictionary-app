@@ -6,15 +6,17 @@ export default function Phonetic(props) {
     return null;
   } else {
     return (
-      <div className="Phonetix">
-        <ReactAudioPlayer
-          src={props.phonetic.audio}
-          controlsList={"nodownload"}
-          controls
-          className="sound"
-        />
-        <div className="text">{props.phonetic.text}</div>
-      </div>
+      <header className="phonetics">
+        <div className="Phonetic">
+          <ReactAudioPlayer
+            src={props.phonetic.audio}
+            controlsList={"nodownload"}
+            controls
+            className="sound"
+          />
+          <div className="text">{props.phonetic.text}</div>
+        </div>
+      </header>
     );
   }
 }

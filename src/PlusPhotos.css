@@ -1,0 +1,5 @@
+.photos {
+    width: 30%;
+    float: right;
+    flex-direction: column;
+}
