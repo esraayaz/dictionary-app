@@ -4,12 +4,11 @@ import "./PlusPhotos.css";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <aside className="photos">
-        <div className="column">
-          {" "}
+      <aside>
+        <div className="row">
           {props.photos.map(function (photo, index) {
             return (
-              <div className="col-5" key={index}>
+              <div className="col-3" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img src={photo.src.landscape} alt="" className="img-fluid" />
                 </a>

@@ -1,5 +1,4 @@
-.photos {
-    width: 30%;
-    float: right;
-    flex-direction: column;
+.img-fluid {
+    border-radius: 5px;
+    margin: 40px 0px;
 }

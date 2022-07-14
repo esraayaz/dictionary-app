@@ -51,8 +51,8 @@ export default function Dictionary() {
           <strong>Suggested Words:</strong> sunset, mountain, yoga, plant...
         </div>
       </div>
-      <Results results={results} />
       <Photos photos={photos} />
+      <Results results={results} />
     </section>
   );
 }
