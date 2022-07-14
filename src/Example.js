@@ -1,12 +1,16 @@
 import React from "react";
-import Examples from "./Examples.css";
+import "./Example.css";
 
 export default function Example(props) {
   if (props.example) {
     return (
-      <span>
-        <em> Example : {props.example}</em>
-      </span>
+      <div className="examples">
+        <span>
+          <em>
+            <strong className="two-strong">Example :</strong> {props.example}
+          </em>
+        </span>
+      </div>
     );
   } else {
     return null;

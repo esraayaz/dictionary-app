@@ -1,0 +1,11 @@
+.examples {
+    margin: 15px 0px;
+    padding: 8px;
+}
+
+em,
+.two-strong {
+    padding: 5px;
+    background: #c0ffc2;
+    border-radius: 4px;
+}

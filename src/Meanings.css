@@ -1,3 +1,7 @@
-.meaning {
-    background-color: blue;
+div .Meaning {
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 25px white;
+    padding: 40px;
+    margin-bottom: 30px;
 }

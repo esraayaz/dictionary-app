@@ -37,19 +37,22 @@ export default function Dictionary() {
 
   return (
     <section className="dictionary">
-      <div className="Dictionary">
-        <div className="search">
-          <form onSubmit={search}>
-            <input
-              type="search"
-              className="form control"
-              onChange={handleKeywordChange}
-            />
-          </form>
+      <h1>What are you looking for?</h1>
+      <div className="search">
+        <form onSubmit={search} className="form">
+          <input
+            type="search"
+            placeholder="Search"
+            className="form-control"
+            onChange={handleKeywordChange}
+          />
+        </form>
+        <div className="hint">
+          <strong>Suggested Words:</strong> sunset, mountain, yoga, plant...
         </div>
-        <Results results={results} />
-        <Photos photos={photos} />
       </div>
+      <Results results={results} />
+      <Photos photos={photos} />
     </section>
   );
 }

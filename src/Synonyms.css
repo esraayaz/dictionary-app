@@ -1,0 +1,10 @@
+ul,
+li,
+.three-strong {
+    max-width: 500px;
+    background: #fdffba;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}

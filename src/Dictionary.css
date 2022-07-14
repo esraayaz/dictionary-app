@@ -1,4 +1,25 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
 .dictionary {
     margin: 0 auto;
-    background-color: white;
+    padding: 20px;
+}
+
+.dictionary input {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 1.5px solid rgb(20, 20, 20);
+}
+
+.dictionary .hint {
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 34.5%;
 }

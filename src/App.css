@@ -1,16 +1,15 @@
-.App {
-    background: rgba(20, 20, 20, 0.8);
-    color: white;
-}
-
-.App-header {
+* {
     box-sizing: border-box;
     margin: 0 auto;
+}
+
+.App {
+    background: linear-gradient( 76.5deg, rgb(129, 252, 255) 0.4%, rgb(255, 175, 207) 49.8%, rgb(255, 208, 153) 98.6%);
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .App-logo {
-    max-width: 200px;
+    width: 8.5%;
     display: block;
     margin: 0 auto;
 }
@@ -18,7 +17,7 @@
 .App footer {
     text-align: center;
     font-size: 10px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .App .esra {
